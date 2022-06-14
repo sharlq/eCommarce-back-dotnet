@@ -2679,19 +2679,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+    "C:\\Users\\APPIATECH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Core\\obj\\",
+      "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\APPIATECH\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\APPIATECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

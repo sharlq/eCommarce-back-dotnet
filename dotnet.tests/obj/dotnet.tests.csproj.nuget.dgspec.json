@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\dotnet.tests\\dotnet.tests.csproj": {}
+    "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\dotnet.tests\\dotnet.tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\dotnet.tests\\dotnet.tests.csproj": {
+    "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\dotnet.tests\\dotnet.tests.csproj",
-        "projectName": "dotnet.tests",
-        "projectPath": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\dotnet.tests\\dotnet.tests.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\dotnet.tests\\obj\\",
+        "projectUniqueName": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Api\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\APPIATECH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\APPIATECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,202 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\dotnet\\Api.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\dotnet\\Api.csproj"
+              "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj"
+              },
+              "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.19.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.5.61, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.19.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\APPIATECH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\APPIATECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.19.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.19.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\dotnet.tests\\dotnet.tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\dotnet.tests\\dotnet.tests.csproj",
+        "projectName": "dotnet.tests",
+        "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\dotnet.tests\\dotnet.tests.csproj",
+        "packagesPath": "C:\\Users\\APPIATECH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\dotnet.tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\APPIATECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Api\\Api.csproj": {
+                "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Api\\Api.csproj"
               }
             }
           }
@@ -63,6 +257,78 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\APPIATECH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\APPIATECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.5.61, )"
             }
           },
           "imports": [

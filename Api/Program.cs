@@ -8,6 +8,7 @@ using Infrastructure.Data;
 using Core.models;
 using Microsoft.AspNetCore.Identity;
 
+
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +26,7 @@ builder.Services.AddDbContext<AppIdentityDbContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"))
     );
 
+//builder.Services.AddIdentity<AppUser>();
 
 builder.Services.AddSingleton<ConnectionMultiplexer>(c =>
 {

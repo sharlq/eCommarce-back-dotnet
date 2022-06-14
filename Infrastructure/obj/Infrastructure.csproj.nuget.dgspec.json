@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Core\\Core.csproj": {
+    "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Core\\obj\\",
+        "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\APPIATECH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\APPIATECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,17 +90,17 @@
         }
       }
     },
-    "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\APPIATECH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\APPIATECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,8 +114,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Documents\\projects\\appiatech\\eCommerce\\back\\Core\\Core.csproj"
+              "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj"
               }
             }
           }
