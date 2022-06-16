@@ -4,7 +4,7 @@ using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using StackExchange.Redis;
-using Infrastructure.Data;
+using Infrastructure.Configuration;
 using Core.models;
 using Microsoft.AspNetCore.Identity;
 
@@ -39,8 +39,12 @@ builder.Services.AddScoped<IBasketRepo, BasketRepo>();
 
 builder.Services.AddScoped<IProductRepo, ProductRepo>();
 builder.Services.AddScoped<IGenericRepo<Product>, GenericRepo<Product>>();
+
+builder.Services.AddScoped<IAuthRepo,AuthRepo>();
 //builder.Services.AddScoped<IGenericRepo<T>, GenericRepo<T>>();
 //builder.Services.AddScoped<IGenericRepo<T>, GenericRepo<T>>();
+
+builder.Services.AddSingleton<IInfrastructureConfiguration, InfrastructureConfiguration>();
 
 
 

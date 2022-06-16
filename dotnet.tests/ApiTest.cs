@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc.Testing;
-using dotnet.Data;
+using Infrastructure.Data;
 
 namespace dotnet.tests
 {

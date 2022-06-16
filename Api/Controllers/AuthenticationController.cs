@@ -2,6 +2,7 @@
 using Core.models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Infrastructure.Data;
 
 namespace Api.Controllers
 {
@@ -9,34 +10,28 @@ namespace Api.Controllers
     [Route("api/[controller]")]
     public class AuthenticationController : Controller
     {
-        private readonly SignInManager<AppUser> _signInManager;
-        private readonly UserManager<AppUser> _userManager;
+
+        private readonly IAuthRepo _authRepo;
 
         public AuthenticationController(
-            UserManager<AppUser> userManager,
-            SignInManager<AppUser> signInManager
+
+            IAuthRepo authRepo
             )
         {
-            _signInManager = signInManager;
-            _userManager = userManager;
+
+            _authRepo = authRepo;
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
+        public async Task<ActionResult<ActionResponse<ReturnUserDto>>> Login(LoginDto login)
         {
-            var user = await _userManager.FindByEmailAsync(loginDto.Email);
+            return await  _authRepo.Login(login);
+        }
 
-            if (user == null) return Unauthorized();
-            var result = await _signInManager.CheckPasswordSignInAsync(user, loginDto.Password,false);
-
-            if (!result.Succeeded) return Unauthorized();
-
-            return new UserDto
-            {
-                Email = user.Email,
-                Token = "this will be a tiken",
-                DisplayName = user.DisplayName,
-            };
+        [HttpPost("register")]
+        public async Task<ActionResponse<ReturnUserDto>> Register(CreateUserDto user)
+        {
+            return await _authRepo.CreateUser(user);
         }
     }
 }

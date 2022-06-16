@@ -6,7 +6,10 @@ namespace Infrastructure.Data
 {
     public class AppDbContext : DbContext
     {
+        public AppDbContext()
+        {
 
+        }
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {}
 
@@ -16,6 +19,14 @@ namespace Infrastructure.Data
 
         public DbSet<ProductType> ProductTypes { get; set; }
 
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
+
+        public DbSet<OrderItem> OrdersItems { get; set; }
+
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -23,6 +34,14 @@ namespace Infrastructure.Data
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             
         }
-        
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=localhost;Database=eCommarce;Trusted_Connection=True;");
+            }
+        }
+
     }
 }

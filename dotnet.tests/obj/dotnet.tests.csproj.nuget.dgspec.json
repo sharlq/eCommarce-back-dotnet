@@ -224,6 +224,12 @@
             "projectReferences": {
               "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Api\\Api.csproj": {
                 "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Api\\Api.csproj"
+              },
+              "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Core\\Core.csproj"
+              },
+              "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\APPIATECH\\Documents\\Projects\\ecommerce\\back\\eCommarce-back-dotnet\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -325,6 +331,28 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
             },
             "StackExchange.Redis": {
               "target": "Package",

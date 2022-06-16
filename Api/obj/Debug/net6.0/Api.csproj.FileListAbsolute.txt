@@ -244,3 +244,4 @@ C:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\Api\o
 C:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\Api\obj\Debug\net6.0\Api.csproj.CopyComplete
 C:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
 C:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\Api\obj\Debug\net6.0\ref\Api.dll
+C:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll

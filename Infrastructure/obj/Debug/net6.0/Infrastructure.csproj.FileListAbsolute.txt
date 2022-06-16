@@ -52,3 +52,5 @@ C:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\Infra
 C:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
 C:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
 C:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+C:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+C:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
