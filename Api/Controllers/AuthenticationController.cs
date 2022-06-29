@@ -33,5 +33,12 @@ namespace Api.Controllers
         {
             return await _authRepo.CreateUser(user);
         }
+
+        [HttpGet("IsEmailUsed/{email}")]
+        public async Task<bool> CheckEmail(string email)
+        {
+            bool isUser = await _authRepo.UserExists(email);
+            return isUser;
+        }
     }
 }

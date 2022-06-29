@@ -13,5 +13,7 @@ namespace Infrastructure.Data
         Task<ActionResponse<ReturnUserDto>> Login(LoginDto user);
         Task<ReturnUserDto> Logout();
         Task<ActionResponse<ReturnUserDto>> CreateUser(CreateUserDto user);
+
+        Task<Boolean> UserExists(string email);
     }
 }

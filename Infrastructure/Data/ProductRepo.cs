@@ -97,7 +97,7 @@ namespace Infrastructure.Data
 
         public async Task<Product> GetProduct(int id)
         {
-            return await _context.Products.Include(p => p.ProductBrand).Include(p => p.ProductBrand).FirstOrDefaultAsync(p => p.Id == id);
+            return await _context.Products.Include(p => p.ProductType).Include(p => p.ProductBrand).FirstOrDefaultAsync(p => p.Id == id);
         }
 
         public async Task<ResponseService<IEnumerable<Product>>> GetProducts(int typeId, int brandId, int offset, int sort, string search)

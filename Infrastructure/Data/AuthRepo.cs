@@ -31,7 +31,7 @@ namespace Infrastructure.Data
             if(user.Password != user.ConfirmPassword)
             {
                 response.Success = false;
-                response.Message = "Password doesnt match";
+                response.Message = "Password doesnt match ";
                 return response;
             }
             if (await UserExists(user.Email))
@@ -105,7 +105,10 @@ namespace Infrastructure.Data
             throw new NotImplementedException();
         }
 
-        private async Task<Boolean> UserExists(string email)
+
+
+
+        public async Task<Boolean> UserExists(string email)
         {
             var user = await _context.Users.FirstOrDefaultAsync(x => x.Email == email);
             if (user == null)

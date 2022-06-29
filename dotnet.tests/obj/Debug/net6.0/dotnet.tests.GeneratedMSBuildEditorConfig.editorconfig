@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dotnet.tests
-build_property.ProjectDir = C:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\dotnet.tests\
+build_property.ProjectDir = c:\Users\APPIATECH\Documents\Projects\ecommerce\back\eCommarce-back-dotnet\dotnet.tests\

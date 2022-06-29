@@ -11,7 +11,7 @@ namespace Infrastructure.Configuration
     {
 
 
-        string Key { get; }
+        string Key    { get; }
 
         string GetConnectionString(string connectionName);
 
